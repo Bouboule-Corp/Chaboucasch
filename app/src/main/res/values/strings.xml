@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Chaboucasch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_button">Play</string>
+    <string name="rules_button">Rules</string>
+    <string name="settings_string">Settings</string>
 </resources>
