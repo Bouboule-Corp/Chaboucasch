@@ -1,4 +1,4 @@
-package com.example.chaboucasch
+package com.game.chaboucasch
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

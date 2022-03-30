@@ -1,4 +1,4 @@
-package com.example.chaboucasch
+package com.game.chaboucasch
 
 import org.junit.Test
 
