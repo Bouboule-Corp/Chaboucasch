@@ -13,6 +13,7 @@
         android:text="@string/play_button"
         android:textSize="25sp"
         android:textColor="@color/white"
+        android:id="@+id/play_button"
         />
     <Button
         android:layout_width="wrap_content"
@@ -20,6 +21,7 @@
         android:text="@string/rules_button"
         android:textSize="25sp"
         android:textColor="@color/white"
+        android:id="@+id/rules_button"
         />
     <Button
         android:layout_width="wrap_content"
@@ -27,5 +29,6 @@
         android:text="@string/settings_string"
         android:textSize="25sp"
         android:textColor="@color/white"
+        android:id="@+id/settings_button"
         />
 </LinearLayout>
