@@ -4,6 +4,7 @@
     <string name="play_button">Play</string>
     <string name="rules_button">Rules</string>
     <string name="settings_string">Settings</string>
+    <string name="next_button">Next</string>
     <string-array name="languages">
         <item>Francais</item>
         <item>English</item>
