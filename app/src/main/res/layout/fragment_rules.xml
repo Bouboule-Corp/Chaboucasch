@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.RulesFragment"
+    tools:ignore="ExtraText,ScrollViewCount"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:text="Le joueur choisit une des 4 options qui lui sont proposées.\n\nLes options sont : Tête ou pas tête, Plus ou Moins en fonction de la dernière carte tirée, Rouge ou Noir et Pique Trèfle Cœur Carreau.\n\nChaque catégorie équivaut à un nombre de points, respectivement 1, 2, 3 et 4 points.\n\nIl peut aussi décider de deviner exactement la carte et à ce moment-là il peut distribuer le nombre de gorgées qu’il le souhaite au joueur de son choix s'il réussit, s’il se trompe il boit cul sec son verre.\n\nEnsuite une carte est tirée aléatoirement et de manière non redondante. Si le joueur a eu juste, les points s’ajoutent à une cagnotte. Par contre s'il a faux, il boit un nombre de gorgées équivalent au nombre de points dans la cagnotte.\n\nDès la première réussite, il peut décider de passer son tour au joueur suivant.\n\nIl y a un système de palier, si un joueur atteint ou dépasse une dizaine il peut donner au joueur de son choix le nombre de dizaines multipliées par 2 (par exemple s'il atteint 10 il donne 2 gorgées, 20 il donne 4 gorgées, ...)\n\n"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+
+</ScrollView>
+
+
