@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center">
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:id="@+id/card"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Score : 0"
         android:id="@+id/score"
+        app:layout_constraintTop_toBottomOf="@+id/card"
+        android:layout_marginTop="15dp"
         />
 
     <Button
@@ -21,24 +25,27 @@
         android:layout_height="wrap_content"
         android:text="Tête"
         android:id="@+id/Tete_button"
+        app:layout_constraintTop_toBottomOf="@+id/score"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pas Tête"
         android:id="@+id/Pastete_Button"
+        app:layout_constraintTop_toBottomOf="@+id/Tete_button"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rouge"
         android:id="@+id/Rouge_Button"
+        app:layout_constraintTop_toBottomOf="@+id/Pastete_Button"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Noir"
         android:id="@+id/Noir_Button"
+        app:layout_constraintTop_toBottomOf="@+id/Rouge_Button"
         />
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
