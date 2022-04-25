@@ -37,9 +37,23 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Plus"
+        android:id="@+id/Plus_Button"
+        app:layout_constraintTop_toBottomOf="@+id/Pastete_Button"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moins"
+        android:id="@+id/Moins_Button"
+        app:layout_constraintTop_toBottomOf="@+id/Plus_Button"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Rouge"
         android:id="@+id/Rouge_Button"
-        app:layout_constraintTop_toBottomOf="@+id/Pastete_Button"
+        app:layout_constraintTop_toBottomOf="@+id/Moins_Button"
         />
     <Button
         android:layout_width="wrap_content"
