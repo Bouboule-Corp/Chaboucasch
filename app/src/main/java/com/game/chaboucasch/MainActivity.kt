@@ -11,7 +11,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        replaceFragment(HomeFragment())
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.Fragment_layout, homeFragment)
+        transaction.commit()
     }
     fun replaceFragment(fragment: Fragment) {
         val transaction = supportFragmentManager.beginTransaction()
